@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 public class GameController {
 
-    private List<Game> db = List.of(new Game());
+    private List<Game> db = List.of(new Game("1", "test", "testfile"));
 
     @GetMapping("/hello")
     public String hello() {

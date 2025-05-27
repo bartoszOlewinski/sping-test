@@ -7,6 +7,13 @@ public class Game {
     private String name;
     private String fileName;
 
+
+    public Game(String id, String name, String fileName) {
+        this.id = id;
+        this.name = name;
+        this.fileName = fileName;
+    }
+
     public String getId() {
         return id;
     }
